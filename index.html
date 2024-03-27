@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SkyFish Weather App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <h1 class="poppins-extrabold-italic">SkyFish Weather WebApp</h1>
+    <div class="container">
+        <form action="" class="getLocation poppins-bold">
+            <label for="location">Enter location : </label>
+            <input type="text" id="location" name="location" class="poppins-medium">
+            <button type="button" id="submit">Submit</button>
+        </form>
+        <div class="description poppins-regular">This webapp provides brief live weather forecast using different features such as current temperature, weather conditions, minimum and maximum temperature recorded, windspeed, sunrise and sunset time (It may be forecasted too). </div>
+        <div class="weather poppins-bold"></div>
+        <div class="address poppins-medium"></div>
+        <div class="others">
+            <div class="temp-max">
+                <img src="images/temp-max.svg" alt="temp-max" width="30px" height="30px">
+                <span class="temp-max-text"></span>
+            </div>
+            <div class="temp-min">
+                <img src="images/temp-min.svg" alt="temp-min" width="30px" height="30px">
+                <span class="temp-min-text"></span>
+            </div>
+            <div class="windspeed">
+                <img src="images/wind-flow-2-solid.svg" alt="wind" width="30px" height="30px">
+                <span class="windspeed-text"></span>
+            </div>
+            <div class="times">
+            <div class="sunrise-time">
+                <img src="images/sunrise-alt.svg" alt="sunrise" width="30px" height="30px">
+                <span class="sunrise-time-text"></span>
+            </div>
+            <div class="sunset-time">
+                <img src="images/sunset-2.svg" alt="sunset" width="30px" height="30px">
+                <span class="sunset-time-text"></span>
+            </div>
+            </div>
+        </div>
+    </div>
+    <footer id="footer">&copy; Rishabh Verma</footer>
+    <script src="script.js"></script>
+</body>
+</html>

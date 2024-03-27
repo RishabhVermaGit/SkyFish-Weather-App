@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    padding-top: 2%;
+    text-align: center;
+    font-size: 3em;    
+}
+
+body{
+    background-size: cover;
+    background-image: url(images/home.jpg);
+
+}
+
+.description{
+    position: absolute;
+    top: 25%;
+    font-size: 1.2em;
+    padding-left: 5%;
+}
+
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.container{
+    position: relative;
+    top: 4vh;
+    left: 25vw;
+    width: 50vw;
+    height: 70vh;
+    background-size: cover;
+    border: 2px solid blue;
+    background-color: antiquewhite;
+}
+
+.poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+.getLocation{
+    position: absolute;
+    top: 10%;
+    left: 15%;
+    right: 10%;
+    font-size: 1.2em;
+    color: darkblue;
+}
+
+.poppins-extrabold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: italic;
+  }
+
+#location{
+    margin-right: 5%;
+    margin-left: 2%;
+    border-radius: 10%;
+    background-color: #87ceeb;
+    font-size: 0.7em;
+    padding-left: 1%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    width: 30%;
+}
+
+.poppins-medium {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+#submit{
+    font-size: 1.0em;
+    padding: 0.5%;
+    color: white;
+    background-color: rgb(61, 61, 157);
+}
+
+.weather{
+    position: absolute;
+    top: 22%;
+    width: 50vw;
+    text-align: center;
+    text-align: center;
+    display: none;
+    font-size: 40px;
+}
+
+.address{
+    position: absolute;
+    top: 38%;
+    width: 50vw;
+    text-align: center;
+}
+
+#footer{
+    position: fixed;
+    bottom: 0px;
+    text-align: center;
+    background-color: white;
+    width: 100%;
+    background-color: blue;
+    color: white;
+}
+
+.others{
+    position: absolute;
+    font-size: 28px;
+    width: 50vw;
+    text-align: center;
+    top: 60%;
+    display: none;
+}
+
+.others>div{
+    margin-right: 5%;
+}
+
+.times>div{
+    margin-right: 5%;
+}
+
+.temp-min{
+    display: inline;
+}
+
+.temp-max{
+    display: inline;
+}
+
+.windspeed{
+    display: inline;
+}
+
+.times>div{
+    display: inline;
+}
